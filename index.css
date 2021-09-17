@@ -1,0 +1,13 @@
+.card-testament {
+    border: 2px solid black;
+}
+
+.cards-testament {
+    max-width: 80%;
+    position: relative;
+    transition: .5s;
+}
+
+.cards {
+    overflow-x: auto;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="container-fluid mt-5">
+        <div class="carousel" data-flickity='{ "freeScroll": true }'>
+            <div class="card-testament carousel-cell col-3 text-center m-2">
+                <video src="./video.mp4" class="vid mt-0" muted poster="./Testament.jpg" width="100%" height="auto"></video>
+                <span class="text-center fs-4 fw-bold m-2">Vídeo sobre o Testament</span>
+                <p class="text-center">Testament é uma banda de thrash metal dos anos 90</p>
+            </div>
+
+            <div class="card-testament carousel-cell col-3 text-center m-2">
+                <video src="./video.mp4" class="vid mt-0" muted poster="./Testament.jpg" width="100%" height="auto"></video>
+                <span class="text-center fs-4 fw-bold m-2">Vídeo sobre o Testament</span>
+                <p class="text-center">Testament é uma banda de thrash metal dos anos 90</p>
+            </div>
+
+            <div class="card-testament carousel-cell col-3 text-center m-2">
+                <video src="./video.mp4" class="vid mt-0" muted poster="./Testament.jpg" width="100%" height="auto"></video>
+                <span class="text-center fs-4 fw-bold m-2">Vídeo sobre o Testament</span>
+                <p class="text-center">Testament é uma banda de thrash metal dos anos 90</p>
+            </div>
+
+            <div class="card-testament carousel-cell col-3 text-center m-2">
+                <video src="./video.mp4" class="vid mt-0" muted poster="./Testament.jpg" width="100%" height="auto"></video>
+                <span class="text-center fs-4 fw-bold m-2">Vídeo sobre o Testament</span>
+                <p class="text-center">Testament é uma banda de thrash metal dos anos 90</p>
+            </div>
+
+            <div class="card-testament carousel-cell col-3 text-center m-2">
+                <video src="./video.mp4" class="vid mt-0" muted poster="./Testament.jpg" width="100%" height="auto"></video>
+                <span class="text-center fs-4 fw-bold m-2">Vídeo sobre o Testament</span>
+                <p class="text-center">Testament é uma banda de thrash metal dos anos 90</p>
+            </div>
+
+            <div class="card-testament carousel-cell col-3 text-center m-2">
+                <video src="./video.mp4" class="vid mt-0" muted poster="./Testament.jpg" width="100%" height="auto"></video>
+                <span class="text-center fs-4 fw-bold m-2">Vídeo sobre o Testament</span>
+                <p class="text-center">Testament é uma banda de thrash metal dos anos 90</p>
+            </div>
+
+            <div class="card-testament carousel-cell col-3 text-center m-2">
+                <video src="./video.mp4" class="vid mt-0" muted poster="./Testament.jpg" width="100%" height="auto"></video>
+                <span class="text-center fs-4 fw-bold m-2">Vídeo sobre o Testament</span>
+                <p class="text-center">Testament é uma banda de thrash metal dos anos 90</p>
+            </div>
+
+            <div class="card-testament carousel-cell col-3 text-center m-2">
+                <video src="./video.mp4" class="vid mt-0" muted poster="./Testament.jpg" width="100%" height="auto"></video>
+                <span class="text-center fs-4 fw-bold m-2">Vídeo sobre o Testament</span>
+                <p class="text-center">Testament é uma banda de thrash metal dos anos 90</p>
+            </div>
+
+            <div class="card-testament carousel-cell col-3 text-center m-2">
+                <video src="./video.mp4" class="vid mt-0" muted poster="./Testament.jpg" width="100%" height="auto"></video>
+                <span class="text-center fs-4 fw-bold m-2">Vídeo sobre o Testament</span>
+                <p class="text-center">Testament é uma banda de thrash metal dos anos 90</p>
+            </div>
+        </div>
+    </div>
+   
+
+    <script>
+        const video = document.querySelector('.vid');
+        video.addEventListener("mouseenter", () => {
+           video.play();
+        })
+
+        video.addEventListener("mouseout", () => {
+            video.pause();
+            video.load();
+        })
+
+    </script>
+</body>
+</html>
